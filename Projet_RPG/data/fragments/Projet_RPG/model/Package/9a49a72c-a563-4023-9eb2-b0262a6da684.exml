@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projet_rpg" version="3">
+  <DEPS>
+    <ID name="projet_rpg" mc="Package" uid="9a49a72c-a563-4023-9eb2-b0262a6da684"/>
+    <COMPID name="Arme" mc="Class" uid="8a2144c6-15b6-4d6b-ac10-5c08586a3bb7"/>
+    <COMPID name="Armure" mc="Class" uid="3604722e-b1cd-42d6-b56c-a72138670a5a"/>
+    <COMPID name="Classe" mc="Class" uid="9a7dbfc0-e43a-4aa0-b058-5ed46c449947"/>
+    <COMPID name="Classe1" mc="Class" uid="abcc534d-c1f3-4bfc-863e-5611cce8fab4"/>
+    <COMPID name="Classe2" mc="Class" uid="98c704da-3ffc-4366-80a8-c6d60678b4f8"/>
+    <COMPID name="Classe3" mc="Class" uid="34c9da76-e905-4bd0-835c-e0ddb7224ee8"/>
+    <COMPID name="Classe4" mc="Class" uid="40d91bb1-22f5-4314-886f-acbb73addced"/>
+    <COMPID name="Classe5" mc="Class" uid="97fe1b47-ea2f-42c2-b5af-907203a5bf28"/>
+    <COMPID name="Equipement" mc="Class" uid="dede2e01-f44a-449b-acef-20fd37455fae"/>
+    <COMPID name="Invetaire" mc="Class" uid="5e823879-a011-473a-aa6f-cca210cf61c5"/>
+    <COMPID name="Joueur" mc="Class" uid="92e07a0d-b4a8-490b-9a28-d6de97c18f2f"/>
+    <COMPID name="LivreSort" mc="Class" uid="01778d15-94a4-4657-b9da-df92051f5a59"/>
+    <COMPID name="Objet" mc="Class" uid="db7d5676-d1e5-4ce6-8ae5-036741baed82"/>
+    <COMPID name="PNJ" mc="Class" uid="43ca0fb0-9be9-4c39-a740-8a12d5e6af73"/>
+    <COMPID name="Sort" mc="Class" uid="c6842691-9750-462b-b00b-5e99f8c8bf6d"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="7519eac2-2650-4db6-926d-3d120bf508c7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="projet_rpg" mc="Package" uid="9a49a72c-a563-4023-9eb2-b0262a6da684"/>
+    <PID name="Projet_RPG" mc="Project" uid="1fdaf8d9-98a4-4aa7-8383-300dddb411e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projet_rpg]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Invetaire" mc="Class" uid="5e823879-a011-473a-aa6f-cca210cf61c5"/>
+        <COMPID name="Equipement" mc="Class" uid="dede2e01-f44a-449b-acef-20fd37455fae"/>
+        <COMPID name="Joueur" mc="Class" uid="92e07a0d-b4a8-490b-9a28-d6de97c18f2f"/>
+        <COMPID name="Classe" mc="Class" uid="9a7dbfc0-e43a-4aa0-b058-5ed46c449947"/>
+        <COMPID name="Classe2" mc="Class" uid="98c704da-3ffc-4366-80a8-c6d60678b4f8"/>
+        <COMPID name="Classe1" mc="Class" uid="abcc534d-c1f3-4bfc-863e-5611cce8fab4"/>
+        <COMPID name="Classe4" mc="Class" uid="40d91bb1-22f5-4314-886f-acbb73addced"/>
+        <COMPID name="Classe5" mc="Class" uid="97fe1b47-ea2f-42c2-b5af-907203a5bf28"/>
+        <COMPID name="Classe3" mc="Class" uid="34c9da76-e905-4bd0-835c-e0ddb7224ee8"/>
+        <COMPID name="Objet" mc="Class" uid="db7d5676-d1e5-4ce6-8ae5-036741baed82"/>
+        <COMPID name="Sort" mc="Class" uid="c6842691-9750-462b-b00b-5e99f8c8bf6d"/>
+        <COMPID name="Arme" mc="Class" uid="8a2144c6-15b6-4d6b-ac10-5c08586a3bb7"/>
+        <COMPID name="Armure" mc="Class" uid="3604722e-b1cd-42d6-b56c-a72138670a5a"/>
+        <COMPID name="LivreSort" mc="Class" uid="01778d15-94a4-4657-b9da-df92051f5a59"/>
+        <COMPID name="PNJ" mc="Class" uid="43ca0fb0-9be9-4c39-a740-8a12d5e6af73"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="7519eac2-2650-4db6-926d-3d120bf508c7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
